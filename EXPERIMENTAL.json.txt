@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "Aerospace and Science Team Embedded Devices Package",
+      "maintainer": "Kyle Strickland",
+      "websiteURL": "",
+      "email" : "kylestricklandj@gmail.com",
+      "platforms":
+      [
+        {
+          "name": "Aerospace and Science Team Embedded Devices Package",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/Kyle5G8/Aerospace-and-Science-Team-Embedded-Devices-Package/zip/master",
+          "archiveFileName": "Aerospace-and-Science-Team-Embedded-Devices-Package-master.zip",
+          "checksum": "SHA-b47f0165ae1f0fcfe7a24f0d85c69b3f",
+          "size": "426,991",
+          "boards": [
+            {
+              "name": "HASP_SAMD_SENSOR"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
