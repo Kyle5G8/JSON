@@ -2,7 +2,7 @@
   "packages":
   [
     {
-      "name": "Aerospace and Science Team Embedded Devices Package",
+      "name": "HASP_SAMD_SENSOR",
       "maintainer": "Kyle Strickland",
       "websiteURL": "",
       "email" : "kylestricklandj@gmail.com",
